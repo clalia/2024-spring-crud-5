@@ -30,16 +30,4 @@ public class CustomerService {
     }
 }
     
-    /* 
-    @Transactional
-    public List<Customer> findAllWProducts() {
-
-        List<Customer> emps = findAll();
-
-        for (Customer cust : custs) {
-
-            Hibernate.initialize(cust.getProducts());
-        }
-
-        return emps;
-        */
+    
